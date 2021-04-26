@@ -1,0 +1,63 @@
+body{
+    font-family: 'lato', sans-serif;
+    margin: 0;
+    /*background-color: black;*/
+}
+
+header.primary::before{
+    content:"";
+    background-image: url(/ifsc-1310/Dragon/assets/img/Dragon-Logo.png);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: .4;
+    
+}
+
+header.primary h1 a{
+    margin:0;
+    font-family:'Zen Dots', cursive, sans-serif;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 100%;
+    margin: 0px auto;
+    width: 449px;
+    height: 70px;
+    color: #ffffff;
+}
+
+a{
+    font-family: 'Kanit', sans-serif, Tahoma;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header.primary nav li{
+    float: left;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: block;
+}
+
+header.primary nav a:active,
+header.primary nav a:hover{
+    background-color: blue;
+}
+
+.container{
+    width: 85vw;
+    margin: 40px auto;
+    max-width: 900px;
+}
