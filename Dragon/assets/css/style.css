@@ -11,6 +11,7 @@ header.primary{
     padding: 6em 2em;
     position: relative; 
     text-shadow: 1px 1px #08548c;
+    z-index: 1;
 }
 
 
