@@ -2,8 +2,18 @@
 body{
     font-family: 'lato', sans-serif;
     margin: 0;
+    
     /*background-color: black;*/
 }
+header.primary{
+    text-align: center;
+    background-color: #a4acac;
+    padding: 6em 2em;
+    position: relative; 
+    text-shadow: 1px 1px #08548c;
+}
+
+
 
 header.primary::before{
     content:"";
@@ -26,12 +36,14 @@ header.primary h1 a{
     font-family:'Zen Dots', cursive, sans-serif;
     display: block;
     overflow: hidden;
-    white-space: nowrap;
-    text-indent: 100%;
+    white-space: normal;
+    text-align: center;
     margin: 0px auto;
     width: 449px;
-    height: 70px;
-    color: #ffffff;
+    height: 90px;
+    color: #08548c;
+    position: relative;
+    
 }
 
 a{
@@ -55,6 +67,12 @@ header.primary nav li{
     display: block;
     
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
 
 
 .container{
@@ -62,3 +80,82 @@ header.primary nav li{
     margin: 40px auto;
     max-width: 900px;
 }
+
+.img-center{
+    display: block;
+    margin: 20px auto;
+    border: 1px;
+}
+
+/*---sections---*/
+
+#articles{
+    background-color: #08548c;
+}
+
+#articles .post{
+    width: 30%;
+    border-radius: 10px;
+    
+}
+#articles h2,
+#content{
+    flex: 0 0 100%;
+    text-align: center;
+    font-size: 2em;
+    color: #a4acac;
+}
+
+#missions h2{
+    flex: 0 0 100%;
+    text-align: center;
+    font-size: 2em;
+    color: #a4acac;
+}
+
+#missions {
+    background-color: #08548c;
+    text-align: center;
+    position: relative;
+    padding: 6em 2em;
+}
+#questions {
+    text-align: center;
+    padding: 6em 2em;
+    position: relative;
+}
+
+#infograph{
+    background-color: #08548c;
+    position: relative;
+    padding: 2em 6em;
+    
+}
+/*---- table on history page-----*/
+td{
+    
+    text-align: center;
+    vertical-align: top;
+}
+#questions dl dt{
+    font-weight: bold;
+}
+
+/*----footer---*/
+#colophon{
+    background-color: #a4acac;
+   
+}
+#colophon::before{
+     background-image: url(/ifsc-1310/Dragon/assets/img/SpaceX-Logo.png);
+     background-size: cover;
+     position: absolute;
+     opacity: .4;
+}
+#colophon p{
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0;
+    font-size: 0.9em;
+}
+
