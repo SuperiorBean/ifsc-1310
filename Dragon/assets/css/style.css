@@ -27,7 +27,7 @@ header.primary::before{
     opacity: .4;
     
 }
-header nav{
+header.primary nav{
     position: relative;
 }
 
@@ -45,6 +45,10 @@ header.primary h1 a{
     position: relative;
     
 }
+header.primary h1 h2 h3{
+    position: relative;
+}
+
 
 a{
     font-family: 'Kanit', sans-serif, Tahoma;
