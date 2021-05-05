@@ -23,3 +23,6 @@ body {
 .gallery img {
 	margin: 15px;
 }
+a, h1{
+    color: white;
+}
