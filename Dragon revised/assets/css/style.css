@@ -19,12 +19,11 @@ header.primary::before{
     content:"";
     background-image: url("/ifsc-1310/Dragon revised/assets/img/Dragon-Logo.png");
     background-size: cover;
-    background-repeat: no-repeat;
     position: absolute;
     top: 0px;
-    right: 0px;
+    width: 100%;
+    height: auto;
     left: 0px;
-    bottom: 0px;
     opacity: .4;
     
 }
