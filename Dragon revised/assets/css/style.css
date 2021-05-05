@@ -156,9 +156,13 @@ td{
     content:"";
     background-image: url("/ifsc-1310/Dragon revised/assets/img/SpaceX-Logo.png");
     background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
     background-repeat: no-repeat;
-    background-position: center;
-    opacity: .4;
+    opacity: 0.4;
 }
 #colophon p{
     text-transform: uppercase;
